@@ -10,7 +10,7 @@ body {
     rgba(255, 255, 255, 1) 0%,
     rgba(183, 221, 255, 1) 79%
   );
-  &::after{
+  &::after {
     content: '';
     position: absolute;
     top: 0;
@@ -19,13 +19,13 @@ body {
     height: 100%;
     opacity: 0.2;
     mix-blend-mode: multiply;
-    background: rgba(255, 255, 255, 0.073) url(src/img/bg-coiner.png) center center/cover repeat fixed;
+    background: rgba(255, 255, 255, 0.073) url('../img/bg-coiner.png') center
+      center/cover repeat fixed;
     z-index: -1;
   }
 }
 
 .App {
- 
   box-sizing: border-box;
   text-align: center;
 }
