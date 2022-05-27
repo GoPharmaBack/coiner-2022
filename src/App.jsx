@@ -1,21 +1,14 @@
 import React from 'react'
-import logo from './logo.svg'
-import Portada from './img/logo_portada_coiner_2022.png'
+
 import './scss/index.scss'
 import Navbar from './components/NavBar/Navbar'
+import GeneralRoutes from './routes/GeneralRoutes'
 
 function App () {
   return (
     <div className="App">
       <Navbar/>
-      <header className="App-header">
-        <p></p>
-        <div className="div">
-        <img src={Portada} className="logo-portada" alt="" />
-        <h1>24, 25, 26 y 27 de Noviembre 2022</h1>
-        </div>
-        <img src={logo} className="App-logo" alt="logo" />
-      </header>
+     <GeneralRoutes/>
     </div>
   )
 }

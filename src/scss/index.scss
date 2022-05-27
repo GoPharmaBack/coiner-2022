@@ -93,7 +93,6 @@ nav {
       align-items: center !important;
     }
   }
- 
 }
 
 .nav-wrapper {
@@ -134,4 +133,17 @@ nav {
   padding: 0.5rem 1rem;
   border: none;
   font-size: calc(calc(12px + 0.5vmin)) !important;
+}
+
+.notfound {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+ 
+  font-size: calc(calc(12px + 0.5vmin)) !important;
+  h1 {
+    font-size: calc(calc(12px + 0.5vmin)) !important;
+  }
 }
